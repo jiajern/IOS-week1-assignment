@@ -14,6 +14,7 @@
 		52FD8219215D40D00016172E /* IOS_week1_assignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD8218215D40D00016172E /* IOS_week1_assignmentTests.swift */; };
 		52FD8224215D40D00016172E /* IOS_week1_assignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD8223215D40D00016172E /* IOS_week1_assignmentUITests.swift */; };
 		52FD8232215D4C4D0016172E /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD8231215D4C4D0016172E /* NowPlayingViewController.swift */; };
+		52FD8234215D65540016172E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD8233215D65540016172E /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		52FD8223215D40D00016172E /* IOS_week1_assignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_week1_assignmentUITests.swift; sourceTree = "<group>"; };
 		52FD8225215D40D00016172E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52FD8231215D4C4D0016172E /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
+		52FD8233215D65540016172E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				52FD820A215D40D00016172E /* Assets.xcassets */,
 				52FD820C215D40D00016172E /* LaunchScreen.storyboard */,
 				52FD820F215D40D00016172E /* Info.plist */,
+				52FD8233215D65540016172E /* MovieCell.swift */,
 			);
 			path = "IOS-week1-assignment";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				52FD8232215D4C4D0016172E /* NowPlayingViewController.swift in Sources */,
 				52FD8204215D40CF0016172E /* AppDelegate.swift in Sources */,
+				52FD8234215D65540016172E /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
