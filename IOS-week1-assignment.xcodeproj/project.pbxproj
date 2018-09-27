@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		52FD8204215D40CF0016172E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD8203215D40CF0016172E /* AppDelegate.swift */; };
-		52FD8206215D40CF0016172E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD8205215D40CF0016172E /* ViewController.swift */; };
 		52FD8209215D40CF0016172E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FD8207215D40CF0016172E /* Main.storyboard */; };
 		52FD820B215D40D00016172E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FD820A215D40D00016172E /* Assets.xcassets */; };
 		52FD820E215D40D00016172E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FD820C215D40D00016172E /* LaunchScreen.storyboard */; };
 		52FD8219215D40D00016172E /* IOS_week1_assignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD8218215D40D00016172E /* IOS_week1_assignmentTests.swift */; };
 		52FD8224215D40D00016172E /* IOS_week1_assignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD8223215D40D00016172E /* IOS_week1_assignmentUITests.swift */; };
+		52FD8232215D4C4D0016172E /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD8231215D4C4D0016172E /* NowPlayingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		52FD8200215D40CF0016172E /* IOS-week1-assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-week1-assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FD8203215D40CF0016172E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52FD8205215D40CF0016172E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52FD8208215D40CF0016172E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52FD820A215D40D00016172E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52FD820D215D40D00016172E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		52FD821F215D40D00016172E /* IOS-week1-assignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-week1-assignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FD8223215D40D00016172E /* IOS_week1_assignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_week1_assignmentUITests.swift; sourceTree = "<group>"; };
 		52FD8225215D40D00016172E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FD8231215D4C4D0016172E /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		52FD8202215D40CF0016172E /* IOS-week1-assignment */ = {
 			isa = PBXGroup;
 			children = (
+				52FD8231215D4C4D0016172E /* NowPlayingViewController.swift */,
 				52FD8203215D40CF0016172E /* AppDelegate.swift */,
-				52FD8205215D40CF0016172E /* ViewController.swift */,
 				52FD8207215D40CF0016172E /* Main.storyboard */,
 				52FD820A215D40D00016172E /* Assets.xcassets */,
 				52FD820C215D40D00016172E /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FD8206215D40CF0016172E /* ViewController.swift in Sources */,
+				52FD8232215D4C4D0016172E /* NowPlayingViewController.swift in Sources */,
 				52FD8204215D40CF0016172E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
